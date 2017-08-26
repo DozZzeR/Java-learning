@@ -37,7 +37,7 @@ public class ExpressionConverter {
         if (checkExpression()) {
             stringToList();
             System.out.println(calculator());
-        } else System.out.println("Скобки не согласованы");
+        } else System.out.println("Скобки не согласованы!");
 
         for (String s : polish) {
             System.out.print(s + " ");
